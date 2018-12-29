@@ -1,0 +1,180 @@
+body {
+  background: black;
+  color: white;
+}
+.hero {
+  background: url('../images/background.jpg') no-repeat;
+  background-size: cover;
+  width: 100%;
+  background-position: center center;
+  min-height: 800px;
+  padding: 100px 50px;
+}
+h1, h2, h3 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+}
+.hero h1 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 60px;
+  line-height: 66px;
+  font-weight: normal;
+  color: white;
+}
+.hero h2, h2 {
+  color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
+  line-height: 33px;
+  font-weight: bold;
+}
+@media all and (max-width: 40em) {
+  h2 {
+    font-size: 2.2rem;
+  }
+  h1 {
+    font-size: 2.5rem;
+  }
+}
+.hero p {color: white;}
+.yellow {color: #FAAA2E;}
+.orange {color: #D05233;}
+.green {color: #4F7A63;}
+.button {
+  text-transform: uppercase;
+  color: white;
+  background: black;
+}
+.yellow-bg {
+  background: #FAAA2E;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  padding: 90px !important;
+}
+.orange-bg {
+  background: #D05233;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  padding: 90px !important;
+}
+.green-bg {
+  background: #4F7A63;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  padding: 90px !important;
+}
+.green-bg h1, .green-bg h2, .green-bg h3, .green-bg p, .green-bg a {
+  color: #FFFFFF !important;
+}
+button:hover, .button:hover {
+  background: #4F7A63;
+}
+.black-bg {
+  background: #000000;
+  overflow: auto;
+  padding: 50px !important;
+}
+.white-bg {
+  background: #ffffff;
+  background-size: cover;
+  width: 100%;
+  padding: 50px !important;
+}
+.black-bg img {
+  height: 58px;
+}
+.black-bg p {
+  font-size: 18px;
+  font-weight: normal;
+  color: white;
+}
+.ingredients {
+  background: url('../images/ingredients.jpg') no-repeat;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+.handmade {
+  background: url('../images/burristas.jpg') no-repeat;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+.min-h-480 {
+  min-height: 480px;
+}
+.baton {
+  background: url('../images/burrito-baton-stroked.svg')no-repeat;
+  width: 495px;
+  height: 458px;
+  position: absolute;
+  z-index: 9;
+  left: -260px;
+  top: -60px;
+}
+p {
+  color: #000000;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 23px;
+  line-height: 33px;
+}
+.white {
+  color: white;
+}
+table {
+  width: 100%;
+}
+table td {
+  padding: 10px 0px;
+  border-bottom: 1px solid #e8e8e8;
+}
+table th, h4 {
+  font-size: 12px;
+  color: #4F7A63;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bold;
+  padding-bottom: 25px;
+}
+.coaches {
+  padding-bottom: 4em;
+}
+.coach img {
+  border-radius: 150px;
+  margin-bottom: 20px;
+}
+.coach p {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: -0.05em;
+  color: white;
+  margin: 0px;
+}
+p.title {
+  color: #626262;
+  font-style: italic;
+}
+.footer {
+  color: #626262;
+  border-top: 4px solid #626262;
+  padding: 2em 0em;
+  margin-top: 4em;
+}
+input {
+  background: #626262!important;
+  border: 0px!important;
+}
+form {
+  width: 100%;
+}
