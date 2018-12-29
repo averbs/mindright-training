@@ -8,7 +8,7 @@ body {
   width: 100%;
   background-position: center center;
   min-height: 800px;
-  padding: 100px 50px;
+  padding: 25px 50px;
 }
 h1, h2, h3 {
   font-family: 'Source Sans Pro', sans-serif;
@@ -160,6 +160,16 @@ table th, h4 {
   letter-spacing: -0.05em;
   color: white;
   margin: 0px;
+}
+.mast a {
+  padding-right: 10px;
+  color: white;
+}
+a:hover {
+  text-decoration: underline;
+}
+.mast img {
+  width: 24px;
 }
 p.title {
   color: #626262;
